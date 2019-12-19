@@ -1,5 +1,5 @@
 # Code your solution here!
-require_relative "../guessing_game_cli"
+
 def run_guessing_game
   puts "Enter your guess between 1 to 6."
   my_random = rand(1..6)
@@ -18,3 +18,4 @@ def run_guessing_game
     puts "Goodbye!"
   end
 end
+run_guessing_game
